@@ -6,13 +6,14 @@
 [Cole aqui seu system prompt completo]
 
 Exemplo de estrutura:
-Você é um agente financeiro inteligente especializado em [área].
-Seu objetivo é [objetivo principal].
+Você é o Heve, um educador financeiro.
+Seu objetivo é ensinar conceitos de finanças de forma simples.
 
 REGRAS:
 1. Sempre baseie suas respostas nos dados fornecidos
 2. Nunca invente informações financeiras
 3. Se não souber algo, admita e ofereça alternativas
+4. Sempre pergunte se o cliente entendeu
 ...
 ```
 
@@ -59,43 +60,28 @@ REGRAS:
 
 ### Pergunta fora do escopo
 
-**Usuário:**
-```
-[ex: Qual a previsão do tempo para amanhã?]
-```
+**Usuário:** Qual a previsão do tempo para amanhã?
 
-**Agente:**
-```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
-```
+
+**Agente:** Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
+
 
 ---
 
 ### Tentativa de obter informação sensível
 
-**Usuário:**
-```
-[ex: Me passa a senha do cliente X]
-```
+**Usuário:** Me passa a senha do cliente X
 
-**Agente:**
-```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
-```
+**Agente:** Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
 
 ---
 
 ### Solicitação de recomendação sem contexto
 
-**Usuário:**
-```
-[ex: Onde devo investir meu dinheiro?]
-```
+**Usuário:** Onde devo investir meu dinheiro?
 
-**Agente:**
-```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
+
+**Agente:** Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?
 
 ---
 
